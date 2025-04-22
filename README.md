@@ -40,15 +40,39 @@ Fichiers de base
 •	exercice3.html
 •	exercice3.js
 ________________________________________
+# Exercice 4 : Gestion des événements avec un menu et des images
+Objectif
+L'objectif de cet exercice est de vous familiariser avec la gestion des événements en JavaScript. Vous devrez manipuler des événements tels que le survol, le clic, et l'interaction avec des éléments HTML comme un menu de navigation, des images et un bouton de changement de thème.
+Consignes Générales
+•	Vous devez compléter les fichiers HTML, CSS, et JavaScript fournis.
+•	Ajoutez les événements JavaScript nécessaires pour interagir avec les éléments de la page comme indiqué ci-dessous.
+•	Testez votre page dans un navigateur pour vous assurer que les événements sont correctement gérés.
+Structure du Projet
+1. Menu de navigation
+Vous disposez d'un menu de navigation avec trois liens (Accueil, À propos, Contact). Vous devez ajouter un effet de survol sur chaque lien. Lorsque l'utilisateur survole un lien, sa couleur doit changer.
+Tâches à accomplir :
+•	Ajouter un événement de survol (mouseover et mouseout) sur chaque lien du menu.
+•	Changez la couleur du texte du lien lors du survol.
+2. Galerie d'images
+Sur la page, vous avez trois images cliquables. Chaque image est accompagnée d'une légende. Vous devez ajouter un événement de clic sur chaque image. Lorsque l'utilisateur clique sur une image, un message indiquant l'image cliquée doit s'afficher dans la console.
+Tâches à accomplir :
+•	Ajouter un événement click sur chaque image.
+•	Lorsque l'image est cliquée, affichez un message dans la console indiquant quel texte (légende) correspond à l'image.
+3. Changement de thème
+Il y a un bouton "Changer de thème" en bas de la page. Vous devez ajouter un événement de clic pour permettre à l'utilisateur de changer le thème de la page entre un thème clair et un thème sombre.
+Tâches à accomplir :
+•	Ajouter un événement click sur le bouton pour basculer entre le thème clair et sombre.
+•	Utilisez une classe CSS pour changer les couleurs de fond et de texte de la page.
+Structure des Fichiers
+•	index.html : La structure HTML de la page.
+•	style.css : Le style CSS de la page, incluant les styles pour le thème clair et sombre.
+•	script.js : Le fichier JavaScript où vous devrez compléter les événements pour le menu, les images, et le changement de thème.
+________________________________________
 Instructions Complémentaires
 •	Format de soumission : Vous devez soumettre votre travail sous la forme d'un dossier contenant les fichiers HTML, CSS (si nécessaire) et JavaScript associés à chaque exercice.
 •	Conseils :
 o	Testez régulièrement votre code dans un navigateur pour vous assurer que vos événements fonctionnent comme prévu.
 o	Utilisez la console du navigateur pour déboguer et vérifier l'exécution de vos événements.
 ________________________________________
-Évaluation
-•	Exercice 1 : Gestion correcte des événements de clic et de survol, avec changement de texte et couleur du div.
-•	Exercice 2 : Bonne utilisation des événements focus et blur avec affichage dynamique des messages.
-•	Exercice 3 : Validation complète du formulaire avec gestion des erreurs et confirmation de succès.
 Bonne chance et amusez-vous bien avec les événements JavaScript !
 
